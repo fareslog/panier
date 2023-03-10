@@ -1,0 +1,72 @@
+:root{
+    --page-color: #82076b;
+}
+.navbar{
+    background-color: var(--page-color);
+}
+.logo{
+    width:50px;
+    height:50px;
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover{
+    color:#adb0a9 ;
+}
+.navbar-toggler {
+    color: white;
+    font-size: 25px;
+    border-color:white ;
+}
+.navbar-toggler :focus{
+    box-shadow: none;
+}
+.navbar-toggler-icon{
+    color:aliceblue ;
+}
+#mage{
+    width: 100px;
+    height: 200px;
+}
+:root{
+    --page-color: #82076b;
+}
+
+.landing{
+    background-color:var(--page-color);
+    min-height: calc(100vh - 72px);
+}
+.main-btn{
+    padding: 0.5rem 1rem;
+}
+ul .active{
+    background-color: #82076b;
+    color: aliceblue;
+}
+ul li {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+ul li a:not(.active):hover{
+    color: #82076b;
+}
+a:not(.active) {
+    color: rgb(151, 142, 142);
+}
+a  {
+    text-decoration: none;
+}
+.IN {
+    background-color: #82076b;
+    color:aliceblue;
+}
+.IN:hover{
+  color: rgba(211, 6, 30, 0.571);
+}
+.image{
+    width: 237px;
+    height: 200px;
+    position: relative;
+
+}
+
